@@ -14,13 +14,14 @@ body {
 
 nav {
     background-color: black;
-    padding: .25em;
-    padding-right:2.5em;
+    padding-left: .5em;
+    padding-right: 1.8em;
     display:grid;
     width:100%;
     grid-template-columns: 1fr auto auto auto auto auto auto auto;
     place-items: center;
-    font-size: 24px;
+    font-size: 23px;
+    margin-bottom: 1.5em;
 }
 
 .smallerLogo {
@@ -31,7 +32,7 @@ a {
     text-decoration: none;
     color: rgb(235,230,230);
     font-weight: bold;
-    padding: 1.2em;
+    padding: .8em;
 }
 
 #qumaLogo {
@@ -41,12 +42,23 @@ a {
 main {
     display: grid;
     width: 100%;
-    grid-template-rows: auto auto;
+    grid-template-rows: auto auto auto auto;
 }
 
-.heading{
+.overview{
     display: grid;
     place-items: center;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+.breakline {
+    width: 5%;
+    height: 3px;
+    background-color: #b77d00;
+    margin-bottom: 1.5em;
 }
 
 .services {
@@ -56,25 +68,28 @@ main {
 }
 
 h1 {
-    color: rgb(235,230,230);
-    padding-top: .1em;
-    padding-bottom: .1em;
-    padding-left: 1.5em;
+    color: #b77d00;
+    padding-top: 1em;
+    padding-bottom: .55em;
 }
 
 h2 {
-    background-color: #b77d00;
-    width:100%;
-    color: rgb(235,230,230);
-    padding-top: .1em;
-    padding-bottom: .1em;
-    padding-left: 1.5em;
+    font-size: 26px;
+    color: #b77d00;
+    padding-top: 1.25em;
+    padding-bottom: .5em;
 }
 
 p {
-    padding: .5em;
+    padding-top: 1.5em;
     font-weight: bold;
-    color: black;
+    font-size: 22px;
+}
+
+.seminarP {
+    padding-top:.75em;
+    font-size: 20px;
+    width: 60%;
 }
 
 footer {
@@ -87,29 +102,18 @@ footer {
 }
 
 .goldBackground {
-    background-color: #b77d00;
-    color: rgb(235,230,230);
+    border-radius: 25px;
+    border: 1px solid #b77d00;
+    color: #b77d00;
     display: grid;
-    width: 100%;
+    width: 80%;
     place-items: center;
+    margin-bottom: 2em;
 }
 
-.font32 {
-    font-size: 32px;
-}
-
-.font28 {
-    font-size: 28px;
-}
-
-.font26 {
-    font-size: 26px;
-    width:65vw;
-}
-
-.font24 {
-    font-size: 24px;
-    font-weight: bold;
+.goldBackground:hover {
+    color: rgb(235,230,230);
+    background-color: #b77d00;
 }
 
 .gold {
@@ -117,16 +121,23 @@ footer {
     font-weight: bold;
 }
 
-li {
-    list-style-type: none;
-    padding-left:1.5em;
-    padding-bottom: .4em;
+.bold {
+    font-weight: bold;
 }
 
-.orange {
-    background-color: #F36C3D;
-    display: grid;
-    place-items:center;
+li {
+    list-style-type: none;
+}
+
+ul {
+    font-size: 20px;
+    padding-top: 1em;
+}
+
+.timeFrames {
+    padding-top: 1.5em;
+    font-size: 22px;
+    font-weight: bold;
 }
 
 .ownItImg {
@@ -150,14 +161,19 @@ li {
     place-items: center;
 }
 
-.circle {
-    clip-path: polygon(25% 15%, 75% 15%, 100% 35%, 100% 70%, 75% 85%, 25% 85%, 0 70%, 0 35%);
-    border:solid;
-    border-color: #b77d00;
-    background-color: #b77d00;
+.fourSquare {
+    display: grid;
+    grid-template-rows: auto auto ;
+    grid-template-columns: auto auto;
+}
+
+.twoSquare {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-column-gap: 1em;
+}
+
+.seminarBorder {
     display: grid;
     place-items: center;
-    width:300px;
-    margin-top: .5em;
-    margin-bottom: .5em;
 }
