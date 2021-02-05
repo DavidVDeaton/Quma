@@ -142,3 +142,23 @@ ul {
     display: grid;
     place-items: center;
 }
+
+.portraitCircle {
+    border-radius: 100%;
+    width:400px;
+    height: 400px;
+    object-fit: cover;
+    object-position: center top;
+    border: 24px solid rgba(0,0,0,.05);
+}
+
+.coaching {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    place-items: center;
+}
+
+.coachingText {
+    display: grid;
+    place-items: center;
+}
