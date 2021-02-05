@@ -50,21 +50,11 @@ main {
     place-items: center;
 }
 
-.underline {
-    text-decoration: underline;
-}
-
 .breakline {
     width: 5%;
     height: 3px;
     background-color: #b77d00;
     margin-bottom: 1.5em;
-}
-
-.services {
-    display:grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    place-items: center;
 }
 
 h1 {
@@ -121,10 +111,6 @@ footer {
     font-weight: bold;
 }
 
-.bold {
-    font-weight: bold;
-}
-
 li {
     list-style-type: none;
 }
@@ -138,27 +124,6 @@ ul {
     padding-top: 1.5em;
     font-size: 22px;
     font-weight: bold;
-}
-
-.ownItImg {
-    padding: .75em;
-}
-
-.oshb {
-    padding-bottom: .75em;
-    height: 300px;
-}
-
-.proImg {
-    padding-bottom: .75em;
-    height: 300px;
-}
-
-.selections {
-    height: 20vh;
-    width: 20vw;
-    display: grid;
-    place-items: center;
 }
 
 .fourSquare {
