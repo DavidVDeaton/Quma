@@ -35,6 +35,11 @@ a {
     padding: .8em;
 }
 
+.bookA {
+    display: grid;
+    place-items: center;
+}
+
 #qumaLogo {
     justify-self: start;
 }
@@ -50,17 +55,17 @@ main {
     place-items: center;
 }
 
-.services {
-    display:grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    place-items: center;
+.breakline {
+    width: 5%;
+    height: 3px;
+    background-color: #b77d00;
+    margin-bottom: 1.5em;
 }
 
 h1 {
     color: #b77d00;
     padding-top: .1em;
-    padding-bottom: .1em;
-    padding-left: 1.5em;
+    padding-bottom: .55em;
 }
 
 h2 {
@@ -70,18 +75,10 @@ h2 {
     font-size: 16px;
 }
 
-h3 {
-    font-size: 14px;
-}
-
-h4 {
-    font-size: 14px;
-}
-
 p {
-    padding: .5em;
+    font-size: 16px;
     font-weight: bold;
-    color: black;
+    padding-bottom: 1em;
 }
 
 footer {
@@ -93,60 +90,9 @@ footer {
     place-items: center;
 }
 
-.goldBackground {
-    background-color: #b77d00;
-    color: rgb(235,230,230);
-    display: grid;
-    width: 100%;
-    place-items: center;
-}
-
-.font32 {
-    font-size: 32px;
-}
-
-.font28 {
-    font-size: 28px;
-}
-
-.font26 {
-    font-size: 26px;
-    width:65vw;
-}
-
-.font24 {
-    font-size: 24px;
-    font-weight: bold;
-}
-
-.font16 {
-    font-size: 16px;
-    font-weight: bold;
-}
-
-.font14 {
-    font-size: 14px;
-    font-weight: bold;
-}
-
 .gold {
     color: #b77d00;
     font-weight: bold;
-}
-
-li {
-    list-style-type: none;
-    padding-left:1.5em;
-    padding-bottom: .4em;
-}
-
-.ownItImg {
-    padding: .75em;
-}
-
-.oshb {
-    padding-bottom: .75em;
-    height: 300px;
 }
 
 .productImg {
@@ -160,13 +106,9 @@ li {
     place-items: center;
 }
 
-
 .books {
-    width:90%;
     display: grid;
     place-items: center;
 }
 
-.underline {
-    text-decoration: underline;
-}
+
