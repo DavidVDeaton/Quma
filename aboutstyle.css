@@ -13,20 +13,26 @@ body {
 }
 
 nav {
-    background-color: rgb(6, 68, 20);
-    padding: .25em;
-    padding-right: 2.5em;
+    background-color: black;
+    padding-left: .5em;
+    padding-right: 1.8em;
     display:grid;
     width:100%;
-    grid-template-columns: 1fr auto auto auto auto auto auto auto;
+    grid-template-columns: 1fr auto auto auto auto auto;
     place-items: center;
+    font-size: 23px;
+    margin-bottom: 1.5em;
+}
+
+.smallerLogo {
+    width: 350px;
 }
 
 a {
     color: rgb(235,230,230);
     text-decoration: none;
     font-weight: bold;
-    padding: 1.2em;
+    padding: .8em;
 }
 
 #qumaLogo {
@@ -37,6 +43,7 @@ main {
     display: grid;
     width: 100%;
     grid-template-rows: auto auto auto auto;
+    place-items: center;
 }
 
 .overview {
@@ -49,14 +56,20 @@ main {
 .intro {
     display:grid;
     width:100%;
+    place-items: center;
 }
 
 h1 {
-    background-color: #b77d00;
-    color: rgb(235,230,230);
+    color: #b77d00;
     padding-top: .1em;
-    padding-bottom: .1em;
-    padding-left: 1.5em;
+    padding-bottom: .55em;
+}
+
+.breakline {
+    width: 5%;
+    height: 3px;
+    background-color: #b77d00;
+    margin-bottom: 1.5em;
 }
 
 h2 {
@@ -191,16 +204,6 @@ footer {
 .clients {
     display: grid;
     grid-template-rows: auto auto;
-}
-
-.participantsList {
-    font-weight: bold;
-    padding-left: 2em;
-    padding-top: .5em;
-    padding-bottom: .75em;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr ;
-    grid-gap:.5em;
 }
 
 .quma {
