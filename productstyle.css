@@ -13,19 +13,26 @@ body {
 }
 
 nav {
-    background-color: rgb(6, 68, 20);
-    padding: .25em;
+    background-color: black;
+    padding-left: .5em;
+    padding-right: 1.8em;
     display:grid;
     width:100%;
     grid-template-columns: 1fr auto auto auto auto auto auto auto;
     place-items: center;
+    font-size: 23px;
+    margin-bottom: 1.5em;
+}
+
+.smallerLogo {
+    width: 350px;
 }
 
 a {
     text-decoration: none;
     color: rgb(235,230,230);
     font-weight: bold;
-    padding: 1.2em;
+    padding: .8em;
 }
 
 #qumaLogo {
@@ -50,17 +57,16 @@ main {
 }
 
 h1 {
-    background-color: #b77d00;
-    width:100%;
-    color: rgb(235,230,230);
+    color: #b77d00;
     padding-top: .1em;
     padding-bottom: .1em;
     padding-left: 1.5em;
 }
 
 h2 {
+    color: black;
     padding-top: .5em;
-    padding-bottom: .1em;
+    padding-bottom: .5em;
     font-size: 16px;
 }
 
@@ -79,7 +85,7 @@ p {
 }
 
 footer {
-    background-color: rgb(6, 68, 20);
+    background-color: black;
     padding: 1em;
     display:grid;
     width:100%;
@@ -145,23 +151,18 @@ li {
 
 .productImg {
     padding-bottom: .75em;
-    height: 250px;
+    height: 350px;
 }
 
 .productOne {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     place-items: center;
 }
 
-.productTwo {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    place-items: center;
-}
 
 .books {
-    width:80%;
+    width:90%;
     display: grid;
     place-items: center;
 }
