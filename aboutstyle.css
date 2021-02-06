@@ -76,8 +76,8 @@ h2 {
 
     color: #b77d00;
     padding-top: .1em;
-    padding-bottom: .1em;
-    padding-left: 1em;
+    padding-bottom: .55em;
+    font-size: 28px;
 }
 
 h3 {
@@ -86,6 +86,9 @@ h3 {
     padding-bottom: .1em;
     width: 50vw;
     place-items: center;
+    border-radius: 10px;
+    font-size: 24px;
+    border: 1.5px solid #b77d00;
 }
 
 .seminarRow {
@@ -104,13 +107,15 @@ h3 {
 }
 
 p {
-    padding: .5em;
+    padding: .75em;
     font-weight: bold;
     color: black;
 }
 
 li {
-    padding-left: .5em;
+    padding-left: .75em;
+    padding-right: .75em;
+    padding-top:.25em;
     list-style-type: none;
 }
 
@@ -139,10 +144,6 @@ footer {
     font-size: 32px;
 }
 
-.font28 {
-    font-size: 28px;
-}
-
 .font26 {
     font-size: 26px;
     width:65vw;
@@ -156,14 +157,7 @@ footer {
 
 .font24b {
     font-size: 24px;
-    width:85vw;
-    justify-self: center;
-}
-
-.font24 {
-    font-size: 24px;
-    border: solid;
-    border-color: #b77d00;
+    padding-top: .05em;
 }
 
 .font24c {
@@ -172,11 +166,15 @@ footer {
 
 .font22 {
     font-size: 22px;
-    padding-left: 2em;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    place-items: center;
 }
 
 .font20 {
     font-size: 20px;
+    font-weight: bold;
+    padding: .25em;
 }
 
 .font18 {
@@ -203,33 +201,50 @@ footer {
 
 .clients {
     display: grid;
-    grid-template-rows: auto auto;
+    grid-template-rows: auto auto auto;
+    place-items: center;
+    margin-top: 2em;
 }
 
 .quma {
     display: grid;
     grid-template-rows: auto auto;
     place-items: center;
-    margin-top: 1em;
+    margin-top: 2em;
     margin-bottom: 1em;
+}
+
+.aboutP {
+    display: grid;
+    place-items: center;
+    padding: 1em;
 }
 
 .aboutColumns {
     display:grid;
     grid-template-columns: auto auto;
     place-items: center;
+    margin-top: 2.5em;
 }
 
-.professionalPhoto {
-    height: 400px;
-    padding:.55em;
+.portraitCircle {
+    border-radius: 100%;
+    width:420px;
+    height: 420px;
+    object-fit: cover;
+    object-position: center top;
+    border: 24px solid rgba(0,0,0,.05);
+    justify-self: start;
 }
 
 .contact {
-    padding-top: 2em;
+    margin: 2.5em;
+    padding: 1.25em;
     display: grid;
     grid-template-rows: auto;
     place-items: center;
+    border: 1px solid #b77d00;
+    border-radius: 20px;
 
 }
 
@@ -243,19 +258,22 @@ footer {
 }
 
 .moreInfo {
-    background-color: #b77d00;
-    color: rgb(235,230,230);
+    color: #b77d00;
     display:grid;
     grid-template-columns: 1fr;
     place-items: center;
-    border:solid;
-    border-color: #b77d00;
     padding-bottom: .5em;
     padding-top: .25em;
     margin-bottom: .75em;
-    clip-path: polygon(100% 0, 100% 9%, 85% 100%, 0 100%, 0 0);
 }
 
 .bold {
     font-weight: bold;
+}
+
+.companyList {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin-bottom: 1.5em;
+
 }
