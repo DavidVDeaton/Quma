@@ -167,7 +167,7 @@ footer {
 .font22 {
     font-size: 22px;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
     place-items: center;
 }
 
@@ -276,4 +276,8 @@ footer {
     grid-template-columns: 1fr 1fr 1fr 1fr;
     margin-bottom: 1.5em;
 
+}
+
+.italics {
+    font-style: italic;
 }
