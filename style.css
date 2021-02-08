@@ -30,9 +30,12 @@ nav {
 
 a {
     text-decoration: none;
+    padding: .8em;
+}
+
+.white {
     color: rgb(235,230,230);
     font-weight: bold;
-    padding: .8em;
 }
 
 #qumaLogo {
@@ -96,6 +99,7 @@ p {
 }
 
 footer {
+    margin-top: 1.75em;
     background-color: black;
     padding: 1em;
     display:grid;
@@ -104,7 +108,7 @@ footer {
     place-items: center;
 }
 
-.goldBackground {
+#goldBackground {
     border-radius: 25px;
     border: 1px solid #b77d00;
     color: #b77d00;
@@ -114,15 +118,25 @@ footer {
     margin-bottom: 2em;
 }
 
-.goldBackground:hover {
+#goldBackground:hover {
     color: rgb(235,230,230);
     background-color: #b77d00;
+
 }
 
 .gold {
     color: #b77d00;
     font-weight: bold;
 }
+
+.goldA {
+    color: #b77d00;
+}
+
+.whiteA {
+    color: rgb(235,230,230);
+}
+
 
 li {
     list-style-type: none;
