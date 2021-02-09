@@ -21,7 +21,6 @@ nav {
     grid-template-columns: 1fr auto auto auto auto auto auto auto;
     place-items: center;
     font-size: 23px;
-    margin-bottom: 1.5em;
 }
 
 .smallerLogo {
@@ -47,12 +46,14 @@ main {
     display: grid;
     width: 100%;
     grid-template-rows: auto auto auto auto;
+    padding-top: 1.5em;
+    padding-bottom: 1em;
 }
 
 .overview{
     display: grid;
     place-items: center;
-    margin-top: .75em;
+    margin-top: .75gem;
 }
 
 .breakline {
@@ -108,7 +109,7 @@ p {
 }
 
 footer {
-    margin-top: 1.75em;
+    margin-top: 1.25em;
     background-color: black;
     padding: 1em;
     display:grid;
@@ -202,14 +203,12 @@ ul {
     color: rgb(235,230,230);
     padding-top: .3em;
     padding-bottom: .1em;
-
+    font-size: 24px;
 }
 
 .subFooter {
-    font-size: 24px;
     width: 70%;
     font-weight: bold;
     display: grid;
     place-items: center;
-
 }

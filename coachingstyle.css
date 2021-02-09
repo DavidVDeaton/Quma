@@ -10,11 +10,10 @@ body {
     place-items: center;
     grid-template-rows: auto 1fr auto;
     font-family: 'Poppins', sans-serif;
-    background-color: rgb(235,230,230);
+    background-color: black;
 }
 
 nav {
-    background-color: black;
     padding-left: .5em;
     padding-right: 1.8em;
     display:grid;
@@ -22,7 +21,7 @@ nav {
     grid-template-columns: 1fr auto auto auto auto auto;
     place-items: center;
     font-size: 23px;
-    margin-bottom: 1.5em;
+    font-weight: bold;
 }
 
 .smallerLogo {
@@ -32,7 +31,6 @@ nav {
 a {
     text-decoration: none;
     color: rgb(235,230,230);
-    font-weight: bold;
     padding: .8em;
 }
 
@@ -42,7 +40,14 @@ a {
 
 main {
     display: grid;
-    width: 80%;
+    width: 100%;
+    place-items: center;
+    background-color: rgb(235,230,230);
+}
+
+.width {
+    width:85%;
+    display: grid;
     place-items: center;
 }
 
@@ -67,24 +72,22 @@ p {
 
 footer {
     background-color: black;
-    padding: 1em;
+    padding: 1.5em;
     display:grid;
     width:100%;
-    grid-template-columns: auto auto;
     place-items: center;
 }
 
-.goldBackground {
+#goldBackground {
     border-radius: 25px;
     border: 1px solid #b77d00;
     color: #b77d00;
     display: grid;
-    width: 80%;
     place-items: center;
     margin-bottom: 2em;
 }
 
-.goldBackground:hover {
+#goldBackground:hover {
     color: rgb(235,230,230);
     background-color: #b77d00;
 }
@@ -92,6 +95,14 @@ footer {
 .gold {
     color: #b77d00;
     font-weight: bold;
+}
+
+.goldA {
+    color: #b77d00;
+}
+
+.whiteA {
+    color: rgb(235,230,230);
 }
 
 li {
@@ -129,10 +140,24 @@ ul {
 .coachingText {
     display: grid;
     place-items: center;
-    width: 1000px;
+    width: 900px;
 }
 
 .center {
+    display: grid;
+    place-items: center;
+}
+
+.footP {
+    color: rgb(235,230,230);
+    padding-top: .75em;
+    padding-bottom: .1em;
+    font-size: 24px;
+}
+
+.subFooter {
+    width: 70%;
+    font-weight: bold;
     display: grid;
     place-items: center;
 }
