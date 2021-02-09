@@ -161,3 +161,7 @@ ul {
     display: grid;
     place-items: center;
 }
+
+.black {
+    color: black;
+}
