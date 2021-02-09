@@ -72,17 +72,18 @@ h2 {
     color: black;
     padding-top: .5em;
     padding-bottom: .5em;
-    font-size: 16px;
+    font-size: 24px;
 }
 
 p {
-    font-size: 16px;
+    font-size: 20px;
     font-weight: bold;
     padding-bottom: 1em;
 }
 
 footer {
     background-color: black;
+    margin-top: 2em;
     padding: 1em;
     display:grid;
     width:100%;

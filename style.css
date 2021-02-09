@@ -7,13 +7,13 @@
 body {
     display:grid;
     width: 100vw;
+    place-items: center;
     grid-template-rows: auto 1fr auto;
     font-family: 'Poppins', sans-serif;
-    background-color: rgb(235,230,230);
+    background-color: black;
 }
 
 nav {
-    background-color: black;
     padding-left: .5em;
     padding-right: 1.8em;
     display:grid;
@@ -43,6 +43,7 @@ a {
 }
 
 main {
+    background-color: rgb(235,230,230);
     display: grid;
     width: 100%;
     grid-template-rows: auto auto auto auto;
@@ -51,12 +52,20 @@ main {
 .overview{
     display: grid;
     place-items: center;
+    margin-top: .75em;
 }
 
 .breakline {
     width: 5%;
     height: 3px;
     background-color: #b77d00;
+    margin-bottom: 1.5em;
+}
+
+.breaklineTwo {
+    width: 5%;
+    height: 3px;
+    background-color: black;
     margin-bottom: 1.5em;
 }
 
@@ -103,9 +112,8 @@ footer {
     background-color: black;
     padding: 1em;
     display:grid;
-    width:100%;
-    grid-template-columns: auto auto;
     place-items: center;
+    width: 100%
 }
 
 #goldBackground {
@@ -188,4 +196,20 @@ ul {
 .coachingText {
     display: grid;
     place-items: center;
+}
+
+.footP {
+    color: rgb(235,230,230);
+    padding-top: .3em;
+    padding-bottom: .1em;
+
+}
+
+.subFooter {
+    font-size: 24px;
+    width: 70%;
+    font-weight: bold;
+    display: grid;
+    place-items: center;
+
 }
