@@ -8,6 +8,7 @@ Repository for Quma Learning's Website.
 - [General info](#general-info)
 - [Technology](#technology)
 - [Status](#status)
+- [Future Development](#future-development)
 - [Create By](#create-by)
 
 # General info
@@ -30,7 +31,7 @@ The following technology have been used for this project:
 # Status
 Project status: Finished
 
-# Future Projects
+# Future Development
 
 1. Improve mobile UI
    
