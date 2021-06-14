@@ -85,6 +85,7 @@ footer {
     display: grid;
     place-items: center;
     margin-bottom: 2em;
+    transition-duration: .5s;
 }
 
 #goldBackground:hover {
