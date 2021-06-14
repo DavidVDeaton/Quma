@@ -12,19 +12,31 @@
 <body>
     <nav>
         <a id="qumaLogo" href="index.html" title="Quma Learning">
-            <img class="smallerLogo" alt="Quma Learning Logo" src="assets/qumaLogoFinal.jpg">
+            <img id="qumaLearning" class="smallerLogo" alt="Quma Learning Logo" src="assets/qumaLogoFinal.jpg">
         </a>
         <a href="index.html" class="cpu">SEMINARS AND WEBINARS</a>
         <a href="coaching.html" class="cpu">COACHING</a>
         <a href="https://www.ownityouth.com/" target="_blank" class="cpu">"OWN IT" YOUTH COURSE</a>
         <a href="about.html" class="cpu">ABOUT US</a>
         <a href="product.html" class="cpu"><span class="gold">PRODUCTS</span></a>
+        <ul class="mobile">
+            <div id="noClick" class="display">
+                <i class="fa fa-list-ul" aria-hidden="true"></i>
+            </div>
+            <div id="onClick" class="none">
+                <li><a href="index.html">SEMINARS AND WEBINARS</a></li>
+                <li><a href="coaching.html">COACHING</a></li>
+                <li><a href="https://www.ownityouth.com/" target="_blank">"OWN IT" YOUTH COURSE</a></li>
+                <li><a href="about.html">ABOUT US</a></li>
+                <li><a href="product.html"><span class="gold">PRODUCTS</span></a></li>
+            </div>
+        </ul>
     </nav>
     <main>
         <div class="heading">
             <h1>PRODUCTS</h1>
             <div class="breakline"></div>
-            <p>Click on our products, to purchase them through Amazon.com.</p>
+            <p>Click on our products to purchase them through Amazon.com.</p>
         </div>
 
         <div class="productOne"> 
@@ -54,14 +66,20 @@
     </main>
     <footer>
         <div class="subFooter">
-            <p class="footP">Sign up for Dr. Deaton's free, weekly <span class="gold">Quma Inspirations</span> email newsletter</p>
+            <div class="cpu">
+                <p class="footP">Sign up for Dr. Deaton's free, weekly <span class="gold">Quma Inspirations</span> email newsletter</p>
+            </div>
+            <div class="mobileFooter">
+                <p class="footP">Sign up for <span class="gold">Quma Inspirations</span></p>
+                <p class="footP">Dr. Deaton's free, weekly email newsletter.</p>
+            </div>
         </div>
-
     </footer>
 
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src = "index.js"></script>
     <script type="text/javascript" src="https://app.getresponse.com/view_webform_v2.js?u=STbV&webforms_id=BASzd" data-webform-id="BASzd"></script>
     <script> (function(){ var s = document.createElement('script'), e = ! document.body ? document.querySelector('head') : document.body; s.src = 'https://acsbapp.com/apps/app/dist/js/app.js'; s.async = true; s.onload = function(){ acsbJS.init({ statementLink : '', footerHtml : '', hideMobile : false, hideTrigger : false, language : 'en', position : 'right', leadColor : '#146FF8', triggerColor : '#146FF8', triggerRadius : '50%', triggerPositionX : 'right', triggerPositionY : 'bottom', triggerIcon : 'people', triggerSize : 'medium', triggerOffsetX : 20, triggerOffsetY : 20, mobile : { triggerSize : 'small', triggerPositionX : 'right', triggerPositionY : 'center', triggerOffsetX : 0, triggerOffsetY : 0, triggerRadius : '50%' } }); }; e.appendChild(s); }()); </script>
 </body>
-
 
 </html>
