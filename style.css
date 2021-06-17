@@ -15,7 +15,7 @@ body {
 
 nav {
     padding-left: .5em;
-    padding-right: 1.8em;
+    padding-right: 1em;
     display:grid;
     width:100%;
     grid-template-columns: 1fr auto auto auto auto auto auto auto;
@@ -57,7 +57,7 @@ main {
 .overview{
     display: grid;
     place-items: center;
-    margin-top: .75gem;
+    margin-top: .75em;
 }
 
 .breakline {
