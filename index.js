@@ -30,7 +30,7 @@ $("#noClick").click(() => {
 
         $("#qumaLearning").removeClass("smallestLogo");
         $("#qumaLearning").addClass("smallerLogo");
-    }, 12000);
+    }, 11000);
 
 });
 

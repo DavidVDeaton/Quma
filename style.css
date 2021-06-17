@@ -27,6 +27,10 @@ nav {
     width: 350px;
 }
 
+.smallestLogo {
+    width: 200px;
+}
+
 a {
     text-decoration: none;
     padding: .8em;
@@ -406,7 +410,6 @@ ul {
 
     nav {
         font-size: 14px;
-        padding-right: 1em;
     }
 
     .footP {
@@ -435,7 +438,7 @@ ul {
 @media only screen and (max-width:860px) {
 
     nav {
-        padding-right: .8em;
+        padding-right: 1em;
     }
 
     a {
@@ -679,6 +682,11 @@ ul {
         margin-bottom: 10px;
     }
 
+    .timeFrames {
+        padding-top: 16px;
+        font-size: 16px;
+    }
+
     .full {
         display: none;
     }
@@ -688,16 +696,40 @@ ul {
         place-items: center;
     }
 
+    li {
+        font-size: 14px;
+    }
+
+    .destinationP {
+        font-size: 14px;
+    }
+
 }
 
-@media only screen and (max-width:540px) {
+@media only screen and (max-width:570px) {
 
     .mobile {
         margin-right: .45em;
     }
 
     li {
-        font-size: 11px;
+        font-size: 13px;
+    }
+
+}
+
+@media only screen and (max-width:540px) {
+
+    .mobile {
+        margin-right: .4em;
+    }
+
+    li {
+        font-size: 12px;
+    }
+
+    .destinationP {
+        font-size: 13px;
     }
 
     .subFooter {
@@ -705,7 +737,7 @@ ul {
     }
 
     p {
-        font-size: 15px;
+        font-size: 14px;
     }
 
     footer {
@@ -720,11 +752,29 @@ ul {
     }
 
     .mobile {
-        padding: .5em .3em .5em .3em;
+        padding: .5em .1em .5em .1em;
+        margin-right: .3em;
     }
 
     .footP {
         font-size: 18px;
+    }
+
+    .iframe {
+        width: 420px;
+        height: 266px;
+    }
+
+    .liParticipants {
+        font-size: 12px;
+    }
+
+    p {
+        font-size: 13.5px;
+    }
+
+    li {
+        font-size: 11.5px;
     }
 }
 
@@ -734,12 +784,12 @@ ul {
         padding-top: 1em;
     }
 
-    .smallerLogo {
-        width: 295px;
+    .destinationP {
+        font-size: 12.5px;
     }
 
-    p {
-        font-size: 14px;
+    .smallerLogo {
+        width: 295px;
     }
 
     footer {
@@ -761,6 +811,28 @@ ul {
     .footP {
         font-size: 17px;
     }
+
+    .destinationP {
+        font-size: 12px;
+    }
+
+    p {
+        font-size: 13px;
+    }
+
+    .seminarP {
+        font-size: 14px;
+        width: 88%;
+    }
+
+    .iframe {
+        width: 400px;
+        height: 253px;
+    }
+
+    #goldBackground {
+        width: 88%;
+    }
 }
 
 @media only screen and (max-width:455px) {
@@ -768,12 +840,17 @@ ul {
     .smallerLogo {
         width: 280px;
     }
+
+    .destinationP {
+        font-size: 11px;
+    }
 }
 
 @media only screen and (max-width:440px) {
 
-    p {
-        font-size: 13px;
+    .iframe {
+        width: 380px;
+        height: 240px;
     }
 
     .display {
@@ -788,8 +865,8 @@ ul {
         display: none;
     }
 
-    li {
-        font-size: 11px;
+    #goldBackground {
+        width: 90%;
     }
 
 }
@@ -800,12 +877,29 @@ ul {
         font-size: 12px;
     }
 
+    .iframe {
+        width: 360px;
+        height: 228px;
+    }
+
+    .destinationP {
+        font-size: 10.5px;
+    }
+
+    .liParticipants{
+        font-size: 11px;
+    }
+
 }
 
 @media only screen and (max-width:400px) {
 
     p {
         font-size: 11.5px;
+    }
+
+    .liParticipants{
+        font-size: 10px;
     }
 }
 
