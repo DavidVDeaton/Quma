@@ -21,7 +21,6 @@ nav {
     grid-template-columns: 1fr auto auto auto auto auto;
     place-items: center;
     font-size: 23px;
-    font-weight: bold;
 }
 
 .smallerLogo {
@@ -490,7 +489,7 @@ ul {
     }
 
     .smallerLogo {
-        width: 195px;
+        width: 200px;
     }
 
     .coachingText {
@@ -556,6 +555,10 @@ ul {
         width: 640px;
     }
 
+    .smallerLogo {
+        width: 315px;
+    }
+
     .cpu {
         display: none;
     }
@@ -601,4 +604,157 @@ ul {
     .display {
         display: none;
     }
+}
+
+@media only screen and (max-width:685px) {
+
+    .coachingText {
+        width: 600px;
+    }
+
+}
+
+@media only screen and (max-width:640px) {
+
+    .coachingText {
+        width: 550px;
+    }
+
+    p {
+        font-size: 15.5px;
+    }
+
+    .footP {
+        font-size: 17px;
+    }
+}
+
+@media only screen and (max-width:600px) {
+
+    .coachingText {
+        width: 500px;
+    }
+
+    p {
+        font-size: 15px;
+    }
+
+    .black {
+        font-size: 14.25px;
+    }
+
+    ul {
+        font-size: 16px;
+    }
+
+}
+
+@media only screen and (max-width:540px) {
+
+    .coachingText {
+        width: 465px;
+    }
+
+    p {
+        font-size: 14.5px;
+    }
+
+    .black {
+        font-size: 13.4px;
+    }
+
+    ul {
+        font-size: 15px;
+    }
+
+    .portraitCircle {
+        width: 320px;
+        height: 320px;
+        border: 18px solid rgba(0,0,0,.05);
+    }
+}
+
+@media only screen and (max-width:510px) {
+
+    .smallerLogo {
+        width: 295px;
+    }
+
+    .coachingText {
+        width: 440px;
+    }
+
+    p {
+        font-size: 14px;
+    }
+
+    .black {
+        font-size: 12.7px;
+    }
+
+    ul {
+        font-size: 14.5px;
+    }
+
+    h1 {
+        padding-top: .8em;
+    }
+}
+
+@media only screen and (max-width:480px) {
+
+    .coachingText {
+        width: 410px;
+    }
+
+    p {
+        font-size: 13.3px;
+    }
+
+    .black {
+        font-size: 11.8px;
+    }
+
+    ul {
+        font-size: 14px;
+    }
+}
+
+@media only screen and (max-width:450px) {
+
+    .smallerLogo {
+        width: 280px;
+    }
+
+    .coachingText {
+        width: 400px;
+    }
+
+    p {
+        font-size: 13px;
+    }
+
+    .black {
+        font-size: 11.5px;
+    }
+
+    ul {
+        font-size: 14px;
+    }
+}
+
+@media only screen and (max-width:440px) {
+
+    .display {
+        display: block;
+    }
+
+    #noClick {
+        margin-right: .5em;
+    }
+
+    .none {
+        display: none;
+    }
+
 }

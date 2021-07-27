@@ -293,6 +293,14 @@ ul {
 
 }
 
+@media only screen and (max-width:1175px) {
+
+    .smallerLogo {
+        width: 310px;
+    }
+
+}
+
 @media only screen and (max-width:1140px) {
 
     .liParticipants {
@@ -316,15 +324,20 @@ ul {
     }
 }
 
+
+@media only screen and (max-width:1100px) {
+
+    .smallerLogo {
+        width: 280px;
+    }
+
+}
+
 @media only screen and (max-width:1090px) {
 
     nav {
         padding-left: .3em;
         padding-right: 1.2em;
-    }
-
-    .smallerLogo {
-        width: 280px;
     }
 
     .iframe {
@@ -402,11 +415,16 @@ ul {
 
 }
 
-@media only screen and (max-width:928px) {
+
+@media only screen and (max-width:954px) {
 
     .smallerLogo {
         width: 220px;
     }
+
+}
+
+@media only screen and (max-width:928px) {
 
     nav {
         font-size: 14px;
@@ -549,7 +567,12 @@ ul {
     }
 
     li {
-        font-size: 16px;
+        font-size: 12px;
+    }
+
+    .whiteA {
+        font-size: 12px;
+        padding: 0em;
     }
     
     .footP {
@@ -572,8 +595,8 @@ ul {
     .mobile {
         display: grid;
         place-items: center;
-        padding: .5em .5em .5em .5em;
-        margin-right: .6em;
+        padding: .5em .7em .5em .7em;
+        margin-right: 1em;
         color: rgb(235,230,230);
         font-size: 24px;
     }
