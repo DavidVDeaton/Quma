@@ -27,6 +27,10 @@ nav {
     width: 350px;
 }
 
+.smallestLogo {
+    width: 200px;
+}
+
 a {
     text-decoration: none;
     color: rgb(235,230,230);
@@ -253,6 +257,10 @@ ul {
         width: 800px;
     }
 
+    .footP {
+        font-size: 22px;
+    }
+
 }
 
 @media only screen and (max-width:1235px) {
@@ -269,10 +277,6 @@ ul {
         width: 360px;
         height: 360px;
         border: 18px solid rgba(0,0,0,.05);
-    }
-
-    .footP {
-        font-size: 22px;
     }
 
     .coachingText {
@@ -649,6 +653,14 @@ ul {
 
 }
 
+@media only screen and (max-width:585px) {
+
+    .mobile {
+        margin-right: .6em;
+    }
+
+}
+
 @media only screen and (max-width:540px) {
 
     .coachingText {
@@ -672,7 +684,25 @@ ul {
         height: 320px;
         border: 18px solid rgba(0,0,0,.05);
     }
+
+    .mobile {
+        margin-right: .45em;
+    }
+
+    .none li {
+        font-size: 11px;
+    }
+
 }
+
+@media only screen and (max-width:525px) {
+
+    .mobile {
+        padding: .5em .3em .5em .3em;
+    }
+
+}
+
 
 @media only screen and (max-width:510px) {
 
@@ -718,9 +748,17 @@ ul {
     ul {
         font-size: 14px;
     }
+
+    .mobile {
+        padding: .5em .0em .5em .0em;
+    }
+
+    .none li {
+        font-size: 10px;
+    }
 }
 
-@media only screen and (max-width:450px) {
+@media only screen and (max-width:455px) {
 
     .smallerLogo {
         width: 280px;
@@ -757,4 +795,45 @@ ul {
         display: none;
     }
 
+    li {
+        font-size: 10px;
+    }
+
+    .liGoldBox {
+        font-size: 13px;
+    }
+
+    .coachingText {
+        width: 360px;
+    }
+
+    p {
+        font-size: 12px;
+    }
+
+    .black {
+        font-size: 10px;
+    }
+
+    .footP {
+        font-size: 15.5px;
+    }
+
+}
+
+@media only screen and (max-width:400px) {
+
+    p {
+        font-size: 11px;
+    }
+
+    .coachingText {
+        width: 335px;
+    }
+
+    .portraitCircle {
+        width: 300px;
+        height: 300px;
+        border: 16px solid rgba(0,0,0,.05);
+    }
 }
