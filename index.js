@@ -1,13 +1,13 @@
 $("#goldBackground").mouseover(function() {
 
-    $("#qumaEmail").addClass("whiteA");
+    $("#qumaEmail").addClass("whiteA2");
     $("#qumaEmail").removeClass("goldA");
 });
 
 $("#goldBackground").mouseleave(function() {
 
     $("#qumaEmail").addClass("goldA");
-    $("#qumaEmail").removeClass("whiteA");
+    $("#qumaEmail").removeClass("whiteA2");
 });
 
 $("#noClick").click(() => {
