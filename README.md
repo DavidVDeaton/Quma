@@ -32,10 +32,8 @@ The following technology have been used for this project:
 Project status: Finished
 
 # Future Development
-
-1. Improve mobile UI
    
-2. Add scheduling calendar
+1. Add scheduling calendar
 
 # Create By
 Created by David Deaton
