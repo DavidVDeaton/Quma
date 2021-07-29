@@ -26,6 +26,10 @@ nav {
     width: 350px;
 }
 
+.smallestLogo {
+    width: 200px;
+}
+
 a {
     color: rgb(235,230,230);
     text-decoration: none;
@@ -248,7 +252,6 @@ footer {
 }
 
 .contactInfo {
-
     display:grid;
     grid-template-rows: auto auto;
     place-items: center;
@@ -274,7 +277,6 @@ footer {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     margin-bottom: 1.5em;
-
 }
 
 .italics {
@@ -300,4 +302,561 @@ footer {
     position: relative; 
     top: -7px;
     right: 3px;
+}
+
+@media only screen and (max-width:1520px) {
+
+    nav {
+        font-size: 20px;
+    }
+
+    .companyList {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .font24b {
+        font-size: 22px;
+    }
+
+    .testimony {
+        width: 55vw;
+    }
+
+    h3 {
+        width: 55vw;
+    }
+
+}
+
+@media only screen and (max-width:1380px) {
+
+    a {
+        padding: .6em;
+    }
+
+    .font24b {
+        font-size: 21px;
+    }
+
+    .testimony {
+        width: 58vw;
+    }
+
+    h3 {
+        width: 58vw;
+    }
+
+}
+
+@media only screen and (max-width:1320px) {
+
+    .font24b {
+        font-size: 20px;
+    }
+
+    li {
+        font-size: 18px;
+    }
+
+    .liContact {
+        font-size: 22px;
+    }
+
+}
+
+@media only screen and (max-width:1300px) {
+
+    a {
+        padding: .5em;
+    }
+
+    nav {
+        font-size: 18px;
+    }
+
+    .portraitCircle {
+        width:375px;
+        height: 375px;
+        border: 20px solid rgba(0,0,0,.05);
+    }
+
+    .footP {
+        font-size: 22px;
+    }
+
+    .font24a {
+        font-size: 21px;
+    }
+
+    .testimony {
+        width: 65vw;
+    }
+
+    h3 {
+        width: 65vw;
+    }
+
+}
+
+@media only screen and (max-width:1250px) {
+
+    .font24b {
+        font-size: 19px;
+    }
+
+}
+
+@media only screen and (max-width:1225px) {
+
+    .smallerLogo {
+        width: 315px;
+    }
+
+    nav {
+        font-size: 17px;
+    }
+
+    .subFooter {
+        width: 85%;
+    }
+
+    .font24b {
+        font-size: 18.5px;
+    }
+
+    li {
+        font-size: 17.2px;
+    }
+
+}
+
+@media only screen and (max-width:1175px) {
+
+    .font24b {
+        font-size: 18px;
+    }
+
+    .font24a {
+        width: 62vw;
+        font-size: 20px;
+    }
+
+    li {
+        font-size: 17px;
+    }
+
+    p {
+        padding: .6em;
+    }
+
+    .portraitCircle {
+        border: 18px solid rgba(0,0,0,.05);
+    }
+
+    h2 {
+        padding-bottom: .45em;
+    }
+
+    .aboutP {
+        padding-right: .1em;
+        padding-left: .6em;
+    }
+
+}
+
+@media only screen and (max-width:1125px) {
+
+    .footP {
+        font-size: 20px;
+    }
+
+    footer {
+        padding-bottom: 16px;
+    }
+
+    .smallerLogo {
+        width: 300px;
+    }
+
+    .font24b {
+        padding: .2em;
+    }
+
+    .font24a {
+        padding-right: .2em;
+        padding-left: .2em;
+    }
+
+    .portraitCircle {
+        width: 360px;
+        height: 360px;
+    }
+}
+
+@media only screen and (max-width:1090px) {
+
+    nav {
+        padding-left: .3em;
+        padding-right: 1.2em;
+    }
+
+    .smallerLogo {
+        width: 280px;
+    }
+
+    .font24b {
+        width: 74vw;
+    }
+
+    .font24a {
+        font-size: 19px;
+    }
+
+    h1 {
+        font-size: 30px;
+    }
+
+    h2 {
+        font-size: 26px
+    }
+
+    .portraitCircle {
+        width: 340px;
+        height: 340px;
+        border: 20px solid rgba(0,0,0,.05);
+    }
+
+    .font24 {
+        font-size: 23px;
+    }
+
+    .font18 {
+        font-size: 17px;
+    }
+}
+
+@media only screen and (max-width:1060px) {
+
+    nav {
+        font-size: 16px;
+    }
+
+    .smallerLogo {
+        width: 260px;
+    }
+    
+    h1 {
+        font-size: 28px;
+    }
+
+    .footP {
+        font-size: 18px;
+    }
+
+    .font24a {        
+        font-size: 18px;
+    }
+
+    .contact {
+        padding: 1em;
+    }
+
+    .portraitCircle {
+        width:320px;
+        height: 320px;
+    }
+
+}
+
+@media only screen and (max-width:990px) {
+
+    .smallerLogo {
+        width: 240px;
+    }
+
+    nav {
+        font-size: 15px;
+    }
+
+    h2 {
+        font-size: 16px;
+    }
+
+}
+
+@media only screen and (max-width:928px) {
+
+    .smallerLogo {
+        width: 220px;
+    }
+
+    nav {
+        font-size: 14px;
+        padding-right: 1em;
+    }
+
+    .productImg {
+        height: 270px;
+    }
+
+    .footP {
+        font-size: 16px;
+    }
+
+}
+
+@media only screen and (max-width:860px) {
+
+    nav {
+        padding-right: .8em;
+    }
+
+    a {
+        padding: .4em;
+    }
+}
+
+@media only screen and (max-width:840px) {
+
+    nav {
+        padding-right: .7em;
+        padding-left: .25em;
+    }
+
+    .productImg {
+        height: 260px;
+    }
+
+    .smallerLogo {
+        width: 200px;
+    }
+
+    .subFooter {
+        width: 80%;
+    }
+}
+
+@media only screen and (max-width:820px) {
+
+    nav {
+        font-size: 12px;
+    }
+    
+    .productImg {
+        height: 255px;
+    }
+
+    h2 {
+        font-size: 15px;
+    }
+
+    .subFooter {
+        width: 90%;
+    }
+
+    h1 {
+        font-size: 26px;
+    }
+}
+
+@media only screen and (max-width:730px) {
+
+    .productOne {
+        grid-template-columns: none;
+        grid-template-rows: 1fr 1fr 1fr;
+    }
+
+    .productImg {
+        height: 350px;
+    }
+
+    h2 {
+        font-size: 22px;
+    }
+
+    .footP {
+        font-size: 20px;
+        padding-top: 8px;
+    }
+
+    .smallerLogo {
+        width: 315px;
+    }
+
+    .cpu {
+        display: none;
+    }
+
+    .display {
+        display:none;
+    }
+
+    .mobile {
+        display: grid;
+        place-items: center;
+        padding: .5em .7em .5em .7em;
+        margin-right: 1em;
+        color: rgb(235,230,230);
+        font-size: 24px;
+    }
+
+    .mobileFooter {
+        display: grid;
+        place-items: center;
+        color: rgb(235,230,230);
+    }
+
+    li {
+        font-size: 12px;
+        list-style: none;
+    }
+}
+
+@media only screen and (max-width:650px) {
+
+    .productImg {
+        height: 330px;
+    }
+
+    p {
+        font-size: 17px;
+    }
+}
+
+@media only screen and (max-width:585px) {
+
+    .mobile {
+        margin-right: .6em;
+    }
+
+    .productImg {
+        height: 320px;
+    }
+
+    p {
+        font-size: 16px;
+    }
+}
+
+@media only screen and (max-width:540px) {
+
+    .mobile {
+        margin-right: .45em;
+    }
+
+    li {
+        font-size: 11px;
+    }
+
+    .subFooter {
+        width: 98%;
+    }
+
+    p {
+        font-size: 15px;
+    }
+
+    footer {
+        padding: .7em;
+    }
+}
+
+@media only screen and (max-width:525px) {
+
+    footer {
+        padding: .5em;
+    }
+
+    .mobile {
+        padding: .5em .3em .5em .3em;
+    }
+
+    .footP {
+        font-size: 18px;
+    }
+}
+
+@media only screen and (max-width:500px) {
+
+    main {
+        padding-top: 1em;
+    }
+
+    .smallerLogo {
+        width: 295px;
+    }
+
+    .productImg {
+        height: 300px;
+    }
+
+    p {
+        font-size: 14px;
+    }
+
+    footer {
+        padding-left: .1em;
+        padding-right: .1em;
+    }
+}
+
+@media only screen and (max-width:480px) {
+
+    .mobile {
+        padding: .5em 0em .5em 0em;
+    }
+
+    li {
+        font-size: 10px;
+    }
+
+    .footP {
+        font-size: 17px;
+    }
+}
+
+@media only screen and (max-width:455px) {
+
+    .smallerLogo {
+        width: 280px;
+    }
+}
+
+@media only screen and (max-width:440px) {
+
+    p {
+        font-size: 13px;
+    }
+
+    .display {
+        display: block;
+    }
+
+    #noClick {
+        margin-right: .5em;
+    }
+
+    .none {
+        display: none;
+    }
+
+    li {
+        font-size: 11px;
+    }
+
+}
+
+@media only screen and (max-width:425px) {
+
+    p {
+        font-size: 12px;
+    }
+
+}
+
+@media only screen and (max-width:400px) {
+
+    p {
+        font-size: 11.5px;
+    }
 }
