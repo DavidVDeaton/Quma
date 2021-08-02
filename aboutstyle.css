@@ -578,8 +578,41 @@ footer {
         font-size: 15px;
     }
 
-    h2 {
-        font-size: 16px;
+}
+
+@media only screen and (max-width:960px) {
+
+    li {
+        font-size: 16px
+    }
+
+    .liContact {
+        font-size: 20px;
+    }
+
+    .aboutColumns {
+        grid-template-columns: none;
+        grid-template-rows: auto auto;
+        place-items: center;
+        margin-top: .75em;
+    }
+
+    .portraitCircle {
+        justify-self: center;
+        width: 360px;
+        height: 360px;
+    }
+
+    .font24a {
+        width: 70vw;
+    }
+
+    .testimony {
+        width: 70vw;
+    }
+
+    h3 {
+        width: 70vw;
     }
 
 }
@@ -595,20 +628,44 @@ footer {
         padding-right: 1em;
     }
 
-    .productImg {
-        height: 270px;
+    footer {
+        padding-bottom: .1em;
     }
 
-    .footP {
-        font-size: 16px;
+    .font24a {
+        font-size: 17px;
+    }
+
+    .font18 {
+        font-size: 17px;
+    }
+
+    .font24b {
+        font-size: 17px;
+    }
+
+    .font20 {
+        font-size: 18px;
+    }
+
+}
+
+@media only screen and (max-width:900px) {
+
+    li {
+        font-size: 15.25px
     }
 
 }
 
 @media only screen and (max-width:860px) {
 
+    li {
+        font-size: 15px
+    }
+
     nav {
-        padding-right: .8em;
+        padding-right: .9em;
     }
 
     a {
@@ -619,20 +676,49 @@ footer {
 @media only screen and (max-width:840px) {
 
     nav {
-        padding-right: .7em;
         padding-left: .25em;
-    }
-
-    .productImg {
-        height: 260px;
     }
 
     .smallerLogo {
         width: 200px;
     }
 
-    .subFooter {
-        width: 80%;
+    .footP {
+        font-size: 17px;
+    }
+
+    .font24b {
+        width: 75vw;
+    }
+
+    .companyList { 
+        grid-template-columns: 1fr 1fr;
+    }
+
+    li {
+        font-size: 16.5px;
+        padding-left: 1.25em;
+        padding-right: 1.25em;
+    }
+
+    .liContact {
+        font-size: 18px;
+    }
+
+    .font24a {
+        font-size: 16px;
+    }
+
+    .font18 {
+        font-size: 16px;
+    }
+
+    .font20 {
+        font-size: 17.5px;
+    }
+
+    .font24b {
+        width: 78vw;
     }
 }
 
@@ -640,10 +726,6 @@ footer {
 
     nav {
         font-size: 12px;
-    }
-    
-    .productImg {
-        height: 255px;
     }
 
     h2 {

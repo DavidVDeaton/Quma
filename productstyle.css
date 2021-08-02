@@ -291,7 +291,7 @@ footer {
 @media only screen and (max-width:860px) {
 
     nav {
-        padding-right: .8em;
+        padding-right: .9em;
     }
 
     a {
@@ -302,7 +302,6 @@ footer {
 @media only screen and (max-width:840px) {
 
     nav {
-        padding-right: .7em;
         padding-left: .25em;
     }
 
