@@ -714,7 +714,7 @@ footer {
     }
 
     .font20 {
-        font-size: 17.5px;
+        font-size: 17px;
     }
 
     .font24b {
@@ -729,7 +729,7 @@ footer {
     }
 
     h2 {
-        font-size: 15px;
+        font-size: 23px;
     }
 
     .subFooter {
@@ -738,6 +738,10 @@ footer {
 
     h1 {
         font-size: 26px;
+    }
+    
+    .font24 {
+        font-size: 21px;
     }
 }
 
