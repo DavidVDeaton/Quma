@@ -204,11 +204,11 @@ footer {
     background-color: rgb(235,230,230);
     display: grid;
     place-items: start;
-    width: 98%;
+    width: 76%;
     border-radius: 10px;
-    clip-path: polygon(0 0, 100% 0, 50% 100%, 0 100%);
+    clip-path: polygon(0 0, 100% 0, 60% 100%, 0 100%);
     margin-bottom: .25em;
-    padding-left: 1.5em;
+    padding-left: .5em;
     margin-left: .5em;
     transition-duration: .6s;
 }
@@ -230,8 +230,8 @@ footer {
     place-items: end;
     background-color: #b77d00;
     border-radius: 10px;
-    clip-path: polygon(50% 0, 100% 0, 100% 100%, 0 100%);
-    padding-right: 1.5em;
+    clip-path: polygon(40% 0, 100% 0, 100% 100%, 0 100%);
+    padding-right: .5em;
     margin-right: .5em;
     padding-left: 0em;
     margin-left: 0em;
@@ -243,6 +243,27 @@ footer {
     background-color: #b77d00;
     padding-right: 0em;
     padding-left: 1.5em;
+    margin-left: .5em;
+    margin-right: 0em;
+}
+
+#testimony1 {
+    display: grid;
+    place-items: end;
+    background-color: rgb(235,230,230);
+    border-radius: 10px;
+    clip-path: polygon(50% 0, 100% 0, 100% 100%, 0 100%);
+    margin-bottom: .25em;
+    width: 76%;
+    margin-right: .5em;
+    transition-duration: .6s;
+}
+
+#testimony1:hover {
+    clip-path: polygon(0 0, 100% 0, 50% 100%, 0 100%);
+    place-items: start;
+    background-color: #b77d00;
+    padding-left: .25em;
     margin-left: .5em;
     margin-right: 0em;
 }
@@ -270,8 +291,6 @@ footer {
     padding-left: 0em;
     margin-left: 0em;
 }
-
-
 
 .gold {
     color: #b77d00;
@@ -324,7 +343,11 @@ footer {
     place-items: center;
     border: 1px solid #b77d00;
     border-radius: 20px;
+    transition-duration: .5s;
+}
 
+.contact:hover {
+    padding: 2.25em;
 }
 
 .contactInfo {
@@ -344,6 +367,7 @@ footer {
     padding-top: .25em;
     margin-bottom: .75em;
 }
+
 
 .bold {
     font-weight: bold;
