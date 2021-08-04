@@ -112,23 +112,6 @@ footer {
     place-items: center;
 }
 
-.goldBackground {
-    background-color: #b77d00;
-    color: rgb(235,230,230);
-    display: grid;
-    width: 100%;
-    place-items: center;
-}
-
-.font32 {
-    font-size: 32px;
-}
-
-.font26 {
-    font-size: 26px;
-    width:65vw;
-}
-
 .font24a {
     font-size: 24px;
     width:60vw;
@@ -177,30 +160,7 @@ footer {
     padding: .75em;
 }
 
-#testimony2 {
-    background-color: rgb(235,230,230);
-    display: grid;
-    place-items: end;
-    width: 98%;
-    border-radius: 10px;
-    clip-path: polygon(20% 0, 100% 0, 100% 100%, 45% 100%);
-    margin-bottom: .25em;
-    padding-right: 1.5em;
-    margin-right: .5em;
-    transition-duration: .6s;
-}
-
-#testimony2:hover {
-    clip-path: polygon(0 0, 81% 0, 55% 100%, 0 100%);
-    place-items: start;
-    background-color: #b77d00;
-    padding-right: 0em;
-    padding-left: 1.5em;
-    margin-left: .5em;
-    margin-right: 0em;
-}
-
-#testimony3 {
+.testimonyDiv {
     background-color: rgb(235,230,230);
     display: grid;
     place-items: start;
@@ -213,80 +173,12 @@ footer {
     transition-duration: .6s;
 }
 
-#testimony4 {
-    display: grid;
-    place-items: end;
-    background-color: rgb(235,230,230);
-    border-radius: 10px;
-    clip-path: polygon(50% 0, 100% 0, 100% 100%, 0 100%);
-    margin-bottom: .25em;
-    width: 98%;
-    padding-right: 1.5em;
-    margin-right: .5em;
-    transition-duration: .6s;
-}
-
-#testimony3:hover {
+.testimonyDiv:hover {
     place-items: end;
     background-color: #b77d00;
     border-radius: 10px;
     clip-path: polygon(40% 0, 100% 0, 100% 100%, 0 100%);
     padding-right: .5em;
-    margin-right: .5em;
-    padding-left: 0em;
-    margin-left: 0em;
-}
-
-#testimony4:hover {
-    clip-path: polygon(0 0, 100% 0, 50% 100%, 0 100%);
-    place-items: start;
-    background-color: #b77d00;
-    padding-right: 0em;
-    padding-left: 1.5em;
-    margin-left: .5em;
-    margin-right: 0em;
-}
-
-#testimony1 {
-    display: grid;
-    place-items: end;
-    background-color: rgb(235,230,230);
-    border-radius: 10px;
-    clip-path: polygon(50% 0, 100% 0, 100% 100%, 0 100%);
-    margin-bottom: .25em;
-    width: 76%;
-    margin-right: .5em;
-    transition-duration: .6s;
-}
-
-#testimony1:hover {
-    clip-path: polygon(0 0, 100% 0, 50% 100%, 0 100%);
-    place-items: start;
-    background-color: #b77d00;
-    padding-left: .25em;
-    margin-left: .5em;
-    margin-right: 0em;
-}
-
-#testimony5 {
-    background-color: rgb(235,230,230);
-    display: grid;
-    place-items: start;
-    width: 98%;
-    border-radius: 10px;
-    clip-path: polygon(0 0, 100% 0, 50% 100%, 0 100%);
-    margin-bottom: .25em;
-    padding-left: 1.5em;
-    margin-left: .5em;
-    transition-duration: .6s;
-}
-
-#testimony5:hover {
-    place-items: end;
-    background-color: #b77d00;
-    border-radius: 10px;
-    clip-path: polygon(50% 0, 100% 0, 100% 100%, 0 100%);
-    padding-right: 1.5em;
     margin-right: .5em;
     padding-left: 0em;
     margin-left: 0em;
