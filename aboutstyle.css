@@ -80,7 +80,7 @@ h3 {
     display:grid;
     padding-top: .1em;
     padding-bottom: .1em;
-    width: 50vw;
+    width: 48vw;
     place-items: center;
     border-radius: 10px;
     font-size: 24px;
@@ -157,7 +157,7 @@ footer {
     display: grid;
     place-items: center;
     width: 50vw;
-    padding: .75em;
+    padding: .4em;
 }
 
 .testimonyDiv {
@@ -168,8 +168,8 @@ footer {
     border-radius: 10px;
     clip-path: polygon(0 0, 100% 0, 60% 100%, 0 100%);
     margin-bottom: .25em;
-    padding-left: .5em;
-    margin-left: .5em;
+    padding-left: .4em;
+    margin-left: .4em;
     transition-duration: .6s;
 }
 
@@ -178,8 +178,8 @@ footer {
     background-color: #b77d00;
     border-radius: 10px;
     clip-path: polygon(40% 0, 100% 0, 100% 100%, 0 100%);
-    padding-right: .5em;
-    margin-right: .5em;
+    padding-right: .2em;
+    margin-right: .2em;
     padding-left: 0em;
     margin-left: 0em;
 }
@@ -194,14 +194,6 @@ footer {
     grid-template-rows: auto auto auto;
     place-items: center;
     margin-top: 2em;
-}
-
-.quma {
-    display: grid;
-    grid-template-rows: auto auto;
-    place-items: center;
-    margin-top: 2em;
-    margin-bottom: 1em;
 }
 
 .aboutP {
@@ -247,7 +239,6 @@ footer {
     grid-template-rows: auto auto;
     place-items: center;
     width: 100%;
-
 }
 
 .moreInfo {
@@ -259,7 +250,6 @@ footer {
     padding-top: .25em;
     margin-bottom: .75em;
 }
-
 
 .bold {
     font-weight: bold;
@@ -296,7 +286,7 @@ footer {
     right: 3px;
 }
 
-@media only screen and (max-width:1520px) {
+@media only screen and (max-width:1522px) {
 
     nav {
         font-size: 20px;
@@ -310,12 +300,20 @@ footer {
         font-size: 22px;
     }
 
-    .testimony {
+    /* .testimony {
         width: 55vw;
     }
 
     h3 {
         width: 55vw;
+    } */
+
+    .testimonyDiv {
+        clip-path: polygon(0 0, 100% 0, 64% 100%, 0 100%);
+    }
+    
+    .testimonyDiv:hover {
+        clip-path: polygon(36% 0, 100% 0, 100% 100%, 0 100%);
     }
 
 }
@@ -331,11 +329,19 @@ footer {
     }
 
     .testimony {
-        width: 58vw;
+        width: 55vw;
     }
 
     h3 {
-        width: 58vw;
+        width: 53vw;
+    }
+
+    .testimonyDiv {
+        width: 85%;
+    }
+    
+    .testimonyDiv:hover {
+        width:85%;
     }
 
 }
@@ -381,11 +387,19 @@ footer {
     }
 
     .testimony {
-        width: 65vw;
+        width: 58vw;
     }
 
     h3 {
-        width: 65vw;
+        width: 55vw;
+    }
+
+    .testimonyDiv {
+        clip-path: polygon(0 0, 100% 0, 68% 100%, 0 100%);
+    }
+    
+    .testimonyDiv:hover {
+        clip-path: polygon(32% 0, 100% 0, 100% 100%, 0 100%);
     }
 
 }
@@ -418,6 +432,22 @@ footer {
 
     li {
         font-size: 17.2px;
+    }
+
+    .testimonyDiv {
+        width: 88%;
+    }
+    
+    .testimonyDiv:hover {
+        width:88%;
+    }
+
+    .testimony {
+        width: 62vw;
+    }
+
+    h3 {
+        width: 60vw;
     }
 
 }
@@ -482,6 +512,22 @@ footer {
     .portraitCircle {
         width: 360px;
         height: 360px;
+    }
+
+    .testimonyDiv {
+        width: 92%;
+    }
+    
+    .testimonyDiv:hover {
+        width:92%;
+    }
+
+    .testimony {
+        width: 66vw;
+    }
+
+    h3 {
+        width: 64vw;
     }
 }
 
