@@ -283,6 +283,10 @@ ul {
         width: 760px;
     }
 
+    .footP {
+        font-size: 21px;
+    }
+
 }
 
 @media only screen and (max-width:1175px) {
@@ -487,6 +491,10 @@ ul {
     .coachingText {
         width: 770px;
     }
+
+    .subFooter {
+        width: 90%;
+    }
 }
 
 @media only screen and (max-width:840px) {
@@ -503,10 +511,6 @@ ul {
         width: 740px;
     }
 
-    .subFooter {
-        width: 80%;
-    }
-
     .portraitCircle {
         width: 370px;
         height: 370px;
@@ -517,10 +521,6 @@ ul {
 
     nav {
         font-size: 12px;
-    }
-
-    .subFooter {
-        width: 90%;
     }
 
     h1 {
@@ -553,6 +553,10 @@ ul {
         width: 350px;
         height: 350px;
         border: 22px solid rgba(0,0,0,.05);
+    }
+
+    .footP {
+        font-size: 16.75px;
     }
 }
 
