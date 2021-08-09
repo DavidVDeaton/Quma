@@ -6,7 +6,7 @@
 
 body {
     display:grid;
-    width: 100vw;
+    width: 100%;
     grid-template-rows: auto 1fr auto;
     font-family: 'Poppins', sans-serif;
     background-color: black;
@@ -148,7 +148,7 @@ footer {
 @media only screen and (max-width:1380px) {
 
     a {
-        padding: .6em;
+        padding: .5em;
     }
 
     h2 {
@@ -158,10 +158,6 @@ footer {
 }
 
 @media only screen and (max-width:1300px) {
-
-    a {
-        padding: .5em;
-    }
 
     nav {
         font-size: 18px;
@@ -192,7 +188,7 @@ footer {
     }
 
     .footP {
-        font-size: 22px;
+        font-size: 21px;
     }
 
 }
