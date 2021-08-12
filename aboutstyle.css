@@ -360,13 +360,17 @@ footer {
         font-size: 22px;
     }
 
-}
-
-@media only screen and (max-width:1300px) {
+    nav {
+        padding-right: 1.2em;
+    }
 
     a {
         padding: .5em;
     }
+
+}
+
+@media only screen and (max-width:1300px) {
 
     nav {
         font-size: 18px;
@@ -529,13 +533,19 @@ footer {
     h3 {
         width: 64vw;
     }
+
+    nav {
+        padding-left: .4em;
+        padding-right: 1.1em;
+    }
 }
 
 @media only screen and (max-width:1090px) {
 
     nav {
-        padding-left: .3em;
-        padding-right: 1.2em;
+        padding-left: .25em;
+        padding-right: 1em;
+        font-size: 16.75px;
     }
 
     .smallerLogo {
@@ -576,7 +586,7 @@ footer {
 @media only screen and (max-width:1060px) {
 
     nav {
-        font-size: 16px;
+        font-size: 15.75px;
     }
 
     .smallerLogo {
@@ -614,7 +624,7 @@ footer {
 
     nav {
         font-size: 15px;
-        padding-right: 1em;
+        padding-right: .9em;
     }
 
 }
@@ -728,7 +738,7 @@ footer {
     }
 
     nav {
-        padding-right: .8em;
+        padding-right: .72em;
     }
 
     .testimonyDiv {
@@ -743,7 +753,7 @@ footer {
 @media only screen and (max-width:840px) {
 
     nav {
-        padding-left: .25em;
+        padding-left: .2em;
     }
 
     .smallerLogo {
@@ -793,6 +803,11 @@ footer {
 
     nav {
         font-size: 12px;
+        padding-right: .7em;
+    }
+
+    a {
+        padding: .3em;
     }
 
     h2 {
