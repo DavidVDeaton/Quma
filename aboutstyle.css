@@ -334,6 +334,7 @@ footer {
 
     .font24b {
         font-size: 21px;
+        padding: .4em;
     }
 
     .testimony {
@@ -518,6 +519,7 @@ footer {
 
     .font24b {
         padding: .2em;
+        font-size: 17.5px;
     }
 
     .font24a {
@@ -639,12 +641,18 @@ footer {
         padding-right: .9em;
     }
 
+    li {
+        font-size: 16.5px
+    }
+
 }
 
 @media only screen and (max-width:960px) {
 
     li {
-        font-size: 16px
+        font-size: 16px;
+        padding-right: .5em;
+        padding-left: .5em;
     }
 
     .liContact {
@@ -786,8 +794,8 @@ footer {
 
     li {
         font-size: 16.5px;
-        padding-left: 1.25em;
-        padding-right: 1.25em;
+        padding-left: 1.5em;
+        padding-right: 1.5em;
     }
 
     .liContact {
@@ -853,6 +861,10 @@ footer {
         font-size: 22px;
     }
 
+    .font24b {
+        width: 85vw;
+    }
+
     .footP {
         font-size: 20px;
         padding-top: 8px;
@@ -886,12 +898,14 @@ footer {
     }
 
     li {
-        font-size: 12px;
-        list-style: none;
+        font-size: 16px;
+        padding-left: 1.2em;
+        padding-right: 1.2em;
     }
 
     .navList {
         padding: 0em;
+        font-size: 12px;
     }
 }
 
@@ -899,6 +913,16 @@ footer {
 
     p {
         font-size: 17px;
+    }
+
+    .font24b {
+        font-size: 15.25px;
+    }
+
+    li {
+        font-size: 14.75px;
+        padding-left: 1em;
+        padding-right: 1em;
     }
 }
 
@@ -911,6 +935,17 @@ footer {
     p {
         font-size: 16px;
     }
+
+    .font24b {
+        font-size: 15px;
+        width: 90vw;
+    }
+
+    li {
+        font-size: 14px;
+        padding-left: .8em;
+        padding-right: .8em;
+    }
 }
 
 @media only screen and (max-width:543px) {
@@ -920,7 +955,9 @@ footer {
     }
 
     li {
-        font-size: 11px;
+        font-size: 13px;
+        padding-left: .6em;
+        padding-right: .6em;
     }
 
     .subFooter {
@@ -933,6 +970,14 @@ footer {
 
     footer {
         padding: .7em;
+    }
+
+    .font24b {
+        font-size: 14px;
+    }
+
+    .navList {
+        font-size: 11px;
     }
 }
 
@@ -949,6 +994,10 @@ footer {
 
     .footP {
         font-size: 18px;
+    }
+
+    .font24b {
+        font-size: 13.5px;
     }
 }
 
@@ -970,6 +1019,14 @@ footer {
         padding-left: .1em;
         padding-right: .1em;
     }
+
+    .font24b {
+        font-size: 13px;
+    }
+
+    li {
+        font-size: 12px;
+    }
 }
 
 @media only screen and (max-width:480px) {
@@ -979,11 +1036,28 @@ footer {
     }
 
     li {
-        font-size: 10px;
+        font-size: 11.5px;
     }
 
     .footP {
         font-size: 17px;
+    }
+
+    .font24b {
+        font-size: 12.5px;
+        width: 92vw;
+    }
+
+    .navList {
+        font-size: 10px;
+    }
+
+    .breakline {
+        margin-bottom: .55em;
+    }
+
+    .aboutP {
+        padding-top: .5em;
     }
 }
 
@@ -992,6 +1066,8 @@ footer {
     .smallerLogo {
         width: 280px;
     }
+
+
 }
 
 @media only screen and (max-width:440px) {
@@ -1016,6 +1092,14 @@ footer {
         font-size: 11px;
     }
 
+    .font24b {
+        font-size: 12px;
+        padding: 0em;
+    }
+
+    .navList {
+        font-size: 11px;
+    }
 }
 
 @media only screen and (max-width:425px) {
@@ -1028,11 +1112,56 @@ footer {
         width: 100%;
     }
 
+    .font24b {
+        font-size: 13px;
+        width: 85vw;
+    }
+
+    .companyList {
+        grid-template-columns: 1fr;
+        margin-bottom: .75em;
+    }
+
+    li {
+        font-size: 12.5px;
+    }
+
+    .font24a {
+        width: 88vw;
+    }
+
 }
 
 @media only screen and (max-width:400px) {
 
     p {
         font-size: 11.5px;
+    }
+
+    .font24a {
+        font-size: 15px;
+    }
+
+    .portraitCircle {
+        border-width: 16px;
+        width: 340px;
+        height: 340px;
+    }
+    
+}
+
+@media only screen and (max-width:375px) {
+
+    .footP {
+        font-size: 16px;
+    }
+
+    .portraitCircle {
+        width: 330px;
+        height: 330px;
+    }
+
+    .aboutP {
+        padding-top: 0em;
     }
 }

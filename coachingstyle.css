@@ -844,3 +844,10 @@ ul {
         border: 16px solid rgba(0,0,0,.05);
     }
 }
+
+@media only screen and (max-width:375px) {
+
+    .footP {
+        font-size: 16px;
+    }
+}
