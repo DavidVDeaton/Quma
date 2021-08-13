@@ -286,6 +286,14 @@ footer {
     right: 3px;
 }
 
+.mobile {
+    display: none;
+}
+
+.mobileFooter {
+    display: none;
+}
+
 @media only screen and (max-width:1522px) {
 
     nav {
@@ -366,6 +374,10 @@ footer {
 
     a {
         padding: .5em;
+    }
+
+    .subFooter {
+        width: 80%;
     }
 
 }
@@ -815,7 +827,7 @@ footer {
     }
 
     .subFooter {
-        width: 90%;
+        width: 94%;
     }
 
     h1 {
@@ -1010,6 +1022,10 @@ footer {
 
     p {
         font-size: 12px;
+    }
+
+    .subFooter {
+        width: 100%;
     }
 
 }
