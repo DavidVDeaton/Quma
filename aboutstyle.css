@@ -541,11 +541,11 @@ footer {
     }
 
     .testimony {
-        width: 66vw;
+        width: 64vw;
     }
 
     h3 {
-        width: 64vw;
+        width: 62vw;
     }
 
     nav {
@@ -580,6 +580,10 @@ footer {
 
     h2 {
         font-size: 26px
+    }
+
+    .font24c {
+        font-size: 22.5px;
     }
 
     .portraitCircle {
@@ -722,7 +726,7 @@ footer {
     }
 
     .font18 {
-        font-size: 17px;
+        font-size: 16.5px;
     }
 
     .font24b {
@@ -749,6 +753,10 @@ footer {
         width: 80vw;
     }
 
+    .font24c {
+        font-size: 22px;
+    }
+
 }
 
 @media only screen and (max-width:860px) {
@@ -762,11 +770,11 @@ footer {
     }
 
     .testimonyDiv {
-        clip-path: polygon(0 0, 100% 0, 74% 100%, 0 100%);
+        clip-path: polygon(0 0, 100% 0, 75% 100%, 0 100%);
     }
     
     .testimonyDiv:hover {
-        clip-path: polygon(26% 0, 100% 0, 100% 100%, 0 100%);
+        clip-path: polygon(25% 0, 100% 0, 100% 100%, 0 100%);
     }
 }
 
@@ -807,7 +815,7 @@ footer {
     }
 
     .font18 {
-        font-size: 16px;
+        font-size: 15.5px;
     }
 
     .font20 {
@@ -846,12 +854,33 @@ footer {
         font-size: 21px;
     }
 
+    .font24c {
+        font-size: 21px;
+    }
+
     .font20 {
         font-size: 16px;
     }
 
     .font18 {
-        font-size: 15.5px;
+        font-size: 15px;
+        padding: .5em;
+    }
+}
+
+@media only screen and (max-width:780px) {
+
+    .font18 {
+        font-size: 14.5px;
+        padding: .5em;
+    }
+
+    .font24c {
+        font-size: 20px;
+    }
+
+    .font20 {
+        font-size: 15.4px;
     }
 }
 
@@ -907,12 +936,32 @@ footer {
         padding: 0em;
         font-size: 12px;
     }
+
+    .testimonyDiv {
+        clip-path: polygon(100% 0%, 85% 50%, 100% 100%, 0 100%, 0% 50%, 0 0);
+    }
+    
+    .testimonyDiv:hover {
+        clip-path: polygon(100% 0%, 100% 50%, 100% 100%, 0 100%, 15% 50%, 0 0);
+    }
+
+    .testimony {
+        width: 76vw;
+    }
+
+    h3 {
+        width: 73vw;
+    }
 }
 
 @media only screen and (max-width:650px) {
 
     p {
         font-size: 17px;
+    }
+
+    .font18 {
+        font-size: 14px;
     }
 
     .font24b {
@@ -924,9 +973,26 @@ footer {
         padding-left: 1em;
         padding-right: 1em;
     }
+
+    .font20 {
+        font-size: 14.8px;
+    }
 }
 
-@media only screen and (max-width:585px) {
+@media only screen and (max-width:625px) {
+
+    .font20 {
+        font-size: 14.2px;
+        padding-left: 0em;
+        padding-right: 0em;
+    }
+
+    .clients {
+        margin-top: 1.2em;
+    }
+}
+
+@media only screen and (max-width:590px) {
 
     .mobile {
         margin-right: .5em;
@@ -946,9 +1012,34 @@ footer {
         padding-left: .8em;
         padding-right: .8em;
     }
+
+    .contact {
+        margin: 2em .5em;
+    }
+
+    .contact:hover {
+        padding: 1.8em;
+    }
+
+    .testimonyDiv {
+        clip-path: polygon(100% 0%, 92% 50%, 100% 100%, 0 100%, 0% 50%, 0 0);
+    }
+    
+    .testimonyDiv:hover {
+        clip-path: polygon(100% 0%, 100% 50%, 100% 100%, 0 100%, 8% 50%, 0 0);
+    }
+
+    .testimony {
+        width: 81vw;
+        padding: .4em .25em;
+    }
+
+    h3 {
+        width: 80vw;
+    }
 }
 
-@media only screen and (max-width:543px) {
+@media only screen and (max-width:545px) {
 
     .mobile {
         margin-right: .45em;
@@ -979,6 +1070,25 @@ footer {
     .navList {
         font-size: 11px;
     }
+
+    .testimonyDiv {
+        width: 94%;
+        clip-path: polygon(100% 0%, 95% 50%, 100% 100%, 0 100%, 0% 50%, 0 0);
+    }
+    
+    .testimonyDiv:hover {
+        clip-path: polygon(100% 0%, 100% 50%, 100% 100%, 0 100%, 5% 50%, 0 0);
+        padding-right: 0em;
+        padding-left: .5em;
+    }
+
+    .testimony {
+        width: 86vw;
+    }
+
+    h3 {
+        width: 84vw;
+    }
 }
 
 @media only screen and (max-width:530px) {
@@ -999,9 +1109,21 @@ footer {
     .font24b {
         font-size: 13.5px;
     }
+
+    .font24c {
+        font-size: 19px;
+    }
+
+    .font20 {
+        font-size: 13.8px;
+    }
+
+    .font18 {
+        font-size: 13.5px;
+    }
 }
 
-@media only screen and (max-width:500px) {
+@media only screen and (max-width:502px) {
 
     main {
         padding-top: 1em;
@@ -1026,6 +1148,29 @@ footer {
 
     li {
         font-size: 12px;
+    }
+
+    .contact {
+        margin: 1.75em .25em;
+    }
+
+    .contact:hover {
+        padding: 1.6em;
+    }
+
+    .testimonyDiv {
+        width: 95%;
+        clip-path: polygon(100% 0%, 100% 50%, 100% 100%, 0 100%, 0% 50%, 0 0);
+        padding: 0em;
+        margin: .2em 0em;
+        place-items: center;
+    }
+    
+    .testimonyDiv:hover {
+        clip-path: polygon(100% 0%, 100% 50%, 100% 100%, 0 100%, 0% 50%, 0 0);
+        padding: 0em;
+        margin: .2em 0em;
+        place-items: center;
     }
 }
 
@@ -1058,6 +1203,10 @@ footer {
 
     .aboutP {
         padding-top: .5em;
+    }
+
+    .liContact {
+        font-size: 16px;
     }
 }
 
@@ -1130,6 +1279,19 @@ footer {
         width: 88vw;
     }
 
+    .contact {
+        margin: 1.6em 0em;
+        padding: .7em;
+    }
+
+    .contact:hover {
+        padding: 1.25em;
+    }
+
+    .liContact {
+        font-size: 15.75px;
+    }
+
 }
 
 @media only screen and (max-width:400px) {
@@ -1147,6 +1309,20 @@ footer {
         width: 340px;
         height: 340px;
     }
+
+    .liContact {
+        font-size: 15.5px;
+        padding-left: .4em;
+        padding-right: .4em;
+    }
+
+    .contact {
+        padding: .5em;
+    }
+
+    .contact:hover {
+        padding: 1em;
+    }
     
 }
 
@@ -1163,5 +1339,17 @@ footer {
 
     .aboutP {
         padding-top: 0em;
+    }
+
+    .navList {
+        font-size: 10px;
+    }
+
+    .liContact {
+        font-size: 15px;
+    }
+
+    .contact:hover {
+        padding: .9em;
     }
 }
