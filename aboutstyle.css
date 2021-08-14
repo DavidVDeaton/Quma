@@ -1172,6 +1172,14 @@ footer {
         margin: .2em 0em;
         place-items: center;
     }
+
+    .font20 {
+        font-size: 13px;
+    }
+
+    .font18 {
+        font-size: 13px;
+    }
 }
 
 @media only screen and (max-width:480px) {
@@ -1208,12 +1216,32 @@ footer {
     .liContact {
         font-size: 16px;
     }
+
+    .font20 {
+        font-size: 12.5px;
+    }
+
+    .font18 {
+        font-size: 12.5px;
+    }
 }
 
 @media only screen and (max-width:455px) {
 
     .smallerLogo {
         width: 280px;
+    }
+
+    .font20 {
+        font-size: 12px;
+    }
+
+    .font18 {
+        font-size: 12px;
+    }
+
+    .font24c {
+        font-size: 18px;
     }
 
 
@@ -1248,6 +1276,10 @@ footer {
 
     .navList {
         font-size: 11px;
+    }
+
+    .tooLong {
+        display: none;
     }
 }
 
