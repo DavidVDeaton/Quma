@@ -595,7 +595,7 @@ ul {
     }
 
     footer {
-        padding: 18px;
+        padding: .75em 0em;
     }
 
     .subFooter {
@@ -845,9 +845,27 @@ ul {
     }
 }
 
-@media only screen and (max-width:375px) {
+@media only screen and (max-width:365px) {
 
-    .footP {
-        font-size: 16px;
+    p {
+        font-size: 11px;
+        padding: .35em .2em;
     }
+
+    .smallerLogo {
+        width: 260px;
+    }
+
+    .smallestLogo {
+        width: 190px;
+    }
+
+    .coachingText {
+        width: 325px;
+    }
+
+    footer {
+        padding: .75em 0em 0em 0em;
+    }
+
 }
